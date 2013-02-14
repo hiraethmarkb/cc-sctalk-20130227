@@ -907,6 +907,16 @@ For Further Reading
 \end_layout
 
 \begin_layout BeginFrame
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+[allowframebreaks]
+\end_layout
+
+\end_inset
+
 For Further Reading
 \end_layout
 

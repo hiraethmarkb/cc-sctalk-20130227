@@ -1,0 +1,72 @@
+Source Control
+~~~~~~~~~~~~~~
+
+  What is it?
+  ~~~~~~~~~~~
+  
+  * Version / Revision / Source control
+  * Track changes to files in a project
+  * Works best on text files
+    * source code
+    * html / css / js
+    * plain text
+  * Not so good on binary files
+    * images
+    * document / pdf
+    
+  Why do I need it?
+  ~~~~~~~~~~~~~~~~~
+  
+  * Reports, Class Papers
+    * seperate, named files
+    * shared folder
+  * Programming / Web projects
+    * seperate, named files unmangaeable
+    * need to track many changes, potentially by a number of people 
+
+  Types
+  ~~~~~
+  
+  * Genrally come in one or two forms
+  * Centralised
+    * RCS - http://en.wikipedia.org/wiki/Revision_Control_System
+    * CVS - http://en.wikipedia.org/wiki/Concurrent_Versions_System
+    * Subversion (SVN) - http://subversion.apache.org/
+  * Distributed
+    * Bazaar - http://bazaar.canonical.com/
+    * Mercurial - http://mercurial.selenic.com/
+    * Git - http://git-scm.com/
+    
+  Centralised vs Distributed
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~
+  
+  * Solve different problems, may as well compare apples to oranges
+  * Centralised
+    * 'One True Source' which is blessed
+    * Developers work on a local copy
+    * Changes become blessed once 'pushed' up and merged
+  * Distributed
+    * No-one repository is blessed
+    * In practice, one repository usually has ultimate trust. But this is defined by the workflow process used, not the version control software
+  * The real choice is purely organisational or workflow based
+    * Centralised - only ever, one internal team
+    * Destributed - Geographically seperated developers
+    
+  Workshop
+  ~~~~~~~~
+  
+  * Basic principles are similar between different systems
+  * Using Git as an example
+    * Tried CVS, and SVN
+    * Is what I'm most familiar with as I use it on a day to day basis
+  * Using repository containing files for presentation
+  * Available on Github
+    * [Github URL to go here]
+
+  References
+  ~~~~~~~~~~
+
+  http://en.wikipedia.org/wiki/Revision_control
+  http://www.oss-watch.ac.uk/resources/versioncontrol
+  http://betterexplained.com/articles/a-visual-guide-to-version-control/
+  http://stackoverflow.com/questions/111031/comparison-between-centralized-and-distributed-version-control-systems

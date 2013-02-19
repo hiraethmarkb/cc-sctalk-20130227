@@ -34,7 +34,7 @@ Or if you’re on a Debian-based distribution like Ubuntu, try apt-get:
 
 To get the latest-and-greatest version for Ubuntu, use the PPA:
 
-    $ sudo add-apt-repository ppa:pdoes/ppa
+    $ sudo add-apt-repository ppa:git-core/ppa
     $ sudo apt-get update
     $ sudo apt-get install git
 

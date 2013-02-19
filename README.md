@@ -18,28 +18,39 @@ By way of an example, the presentation source files are hosted in this Github re
 
 ## Instructions
 
-While there are undoubtedly many GUI fine tools available, we will be using the commandline (sorry, GUI-fans!). There's nothing wrong with using a GUI, using the commandline means we are working (a hopefully) with a more consistent experienceacross whatever your platform of choice. It can also help to provide, I think anyway, a better understanding of what you are doing.
+While there are undoubtedly many GUI fine tools available, we will be using the commandline (sorry, GUI-fans!). There's nothing wrong with using a GUI, using the commandline means we are working (a hopefully) with a more consistent experience across whatever your platform of choice. It can also help to provide, I think anyway, a better understanding of what you are doing.
 
-Anyway, onto the installs! (Taken from http://git-scm.com/book/en/Getting-Started-Installing-Git)
+Anyway, onto the installs! (Taken from http://git-scm.com/book/en/Getting-Started-Installing-Git, with enhancements by [schwuk](https://github.com/schwuk))
 
 ### Installing on Linux
 
 If you want to install Git on Linux via a binary installer, you can generally do so through the basic package-management tool that comes with your distribution. If you’re on Fedora, you can use yum:
 
-$ yum install git-core
+    $ yum install git-core
+    
 Or if you’re on a Debian-based distribution like Ubuntu, try apt-get:
 
-$ apt-get install git
+    $ apt-get install git
+
+To get the latest-and-greatest version for Ubuntu, use the PPA:
+
+    $ sudo add-apt-repository ppa:user/ppa-name
+    $ sudo apt-get update
+    $ sudo apt-get install git
 
 ### Installing on Mac
 
-There are two easy ways to install Git on a Mac. The easiest is to use the graphical Git installer, which you can download from the Google Code page http://code.google.com/p/git-osx-installer
+There are three easy ways to install Git on a Mac. The easiest is to use the graphical Git installer, which you can download from the Google Code page http://code.google.com/p/git-osx-installer
 
-The other major way is to install Git via MacPorts (http://www.macports.org). If you have MacPorts installed, install Git via
+The other major way is to install Git via [MacPorts](http://www.macports.org). If you have MacPorts installed, install Git via
 
-$ sudo port install git-core +svn +doc +bash_completion +gitweb
+    $ sudo port install git-core +svn +doc +bash_completion +gitweb
 
 You don’t have to add all the extras, but you’ll probably want to include +svn in case you ever have to use Git with Subversion repositories (see Chapter 8).
+
+Most Mac users prefer [Homebrew](http://mxcl.github.com/homebrew/) these days:
+
+    $ brew install git
 
 ### Installing on Windows
 
@@ -49,4 +60,4 @@ After it’s installed, you have both a command-line version (including an SSH c
 
 ### Optional extra - Create a Github account
 
-Go to https://github.com/, click 'Sign up for free' and follow the prompts to setup a 'Free for open source' account
+Go to [GitHub](https://github.com/), fill in the details and  click 'Sign up for free' and follow the prompts to setup a 'Free for open source' account

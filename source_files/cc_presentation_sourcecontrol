@@ -51,7 +51,31 @@ Source Control
   * The real choice is purely organisational or workflow based
     * Centralised - only ever, one internal team
     * Destributed - Geographically seperated developers
-    
+
+  Using Source Control
+  ~~~~~~~~~~~~~~~~~~~~
+  
+  * Create repository
+    * Either starting from scratch
+    * Or taking a copy from an existing repository
+  * Adding/Editing Files
+    * New files/changes are commited to the repository
+    * Gives a timeline of changes (or diffs) that you can move along
+  * Branching
+    * Allows you to have mutliple timelines
+    * Experimentation
+  * Merging
+    * Mechanism for moving changes between branches
+    * c.f. main 'stable' timeline, dev 'unstable' timeline
+  * Conflicts - Jack (-foo +bar), Jill (-foo +baz)
+    * Re-apply changes - get the latest version, and re-add your changes (-foo +bar +baz)
+    * Override changes - get the latest version, replace with your changes (-foo +baz)
+  * Tagging
+    * Allows you to label milestones in your timeline
+    * E.g. release versions (1.0, 1.5, 2.0)
+    * SVN - seperate branches
+    * Git - points along main timeline
+
   Workshop
   ~~~~~~~~
   

@@ -51,7 +51,7 @@
 
 \begin_layout Standard
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 This file is a solution template for:
@@ -237,7 +237,7 @@ optional, should be abbreviation of conference name
 
 \begin_layout Standard
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 If you have a file called "institution-logo-filename.xxx", where xxx is a
@@ -281,7 +281,7 @@ pgfuseimage{institution-logo}}
 
 \begin_layout Standard
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 The following causes the table of contents to be shown at the beginning
@@ -805,6 +805,130 @@ Centralised - only ever one internal team (there may even by limited external
 
 \begin_layout Itemize
 Distributed - geographically seperated developers
+\end_layout
+
+\end_deeper
+\begin_layout BeginFrame
+Using Source Control
+\end_layout
+
+\begin_layout FrameSubtitle
+Following the Yellow brick road
+\end_layout
+
+\begin_layout Itemize
+Create repository
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Either starting from scratch
+\end_layout
+
+\begin_layout Itemize
+Or taking a copy from an existing repository
+\end_layout
+
+\end_deeper
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Itemize
+Adding/Editing Files
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+New files/changes are commited to the repository
+\end_layout
+
+\begin_layout Itemize
+Gives a timeline of changes (or diffs) that you can move along
+\end_layout
+
+\end_deeper
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Itemize
+Branching
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Allows you to have mutliple timelines
+\end_layout
+
+\begin_layout Itemize
+Experimentation
+\end_layout
+
+\end_deeper
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Itemize
+Merging
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Mechanism for moving changes between branches
+\end_layout
+
+\begin_layout Itemize
+c.f.
+ main 'stable' timeline, dev 'unstable' timeline
+\end_layout
+
+\end_deeper
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Itemize
+Conflicts - Jack (-foo +bar), Jill (-foo +baz)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Re-apply changes - get the latest version, and re-add your changes (-foo
+ +bar +baz)
+\end_layout
+
+\begin_layout Itemize
+Override changes - get the latest version, replace with your changes (-foo
+ +baz)
+\end_layout
+
+\end_deeper
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Itemize
+Tagging
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Allows you to label milestones in your timeline
+\end_layout
+
+\begin_layout Itemize
+E.g.
+ release versions (1.0, 1.5, 2.0)
+\end_layout
+
+\begin_layout Itemize
+SVN - seperate branches
+\end_layout
+
+\begin_layout Itemize
+Git - points along main timeline
 \end_layout
 
 \end_deeper

@@ -647,7 +647,13 @@ The one TRUE repository...
 \end_layout
 
 \begin_layout Itemize
-[Image to go here]
+\begin_inset Graphics
+	filename centralised.svg
+	scale 25
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -695,7 +701,13 @@ Sets of changes are shared between 'peers'
 \end_layout
 
 \begin_layout Itemize
-[Image to go here]
+\begin_inset Graphics
+	filename distributed.svg
+	scale 25
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
